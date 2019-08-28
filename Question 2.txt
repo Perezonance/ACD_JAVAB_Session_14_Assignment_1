@@ -1,0 +1,4 @@
+Both doGet and doPost methods are overwritten methods from the HttpServlet Interface that are used to handle data that is transfered
+from the client to the server. The way each method handles the data is different for each method. DoGet recieves its data by appending
+it to the url which makes it easy for the client to access. The doPost method handles data by appending it to the request or response
+objects making it more secure.
